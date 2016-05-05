@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+body {
+	align-items: center;
+	text-align: center;
+}
+    
+.knowMe_DIV {
+	align-items: center;
+	text-align: center;
+	height:800px;
+	background-repeat: no-repeat;
+	padding:160px 0 0 0;
+	max-width:1920px;
+	background-size:100% 100%;
+}
+
+.knowMe_DIV h1{
+	font-size:70px;
+}
+
+.knowMe_DIV a{
+	margin-top:40px;
+	font-size:30px
+}
