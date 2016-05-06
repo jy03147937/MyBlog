@@ -11,7 +11,7 @@
    
   </head>
 <body>
-	<div>hello!</div>
+	<div>This is the edit page.</div>
 	<div contenteditable="true" style="z-index:999;border:1px solid #d4d4d4;border-radius:6px;min-height:400px;width:800px;margin:auto;box-shadow:2px 2px 5px #d3d6da;background-color:#fff;word-wrap:break-word;cursor:text"></div>
 </body>
 </html>
