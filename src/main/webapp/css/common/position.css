@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+
+.centre {
+	margin-right:auto; margin-left:auto;
+}
+
+.clear {
+	clear:both;
+}
