@@ -25,6 +25,8 @@
 		</div>
 		<div align="center">
 			<input type="button" value="Bold" onclick="bold()" class="centre"></input>
+			
+			 <button onclick="InsertImage()">InsertImage</button> 
 		</div>
 	</div>
 </body>
@@ -36,6 +38,13 @@ function save(){
 	alert(message);
 	document.querySelectorAll("#contentDisplay")[0].innerHTML = message;
 }
+
+ var editer=document.getElementById('content');
+ function InsertImage(){
+    ImagePath = window.prompt('图片URL:', '');
+    editer.focus();
+    document.execCommand('InsertImage', false, ImagePath);
+ }
 
 function bold(){
 	var selectedText = document.getSelection().getRangeAt(0);
