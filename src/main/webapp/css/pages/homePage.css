@@ -4,14 +4,29 @@ body {
 	align-items: center;
 	text-align: center;
 }
+
+.headerMenu{
+	max-width:1600px;
+	position:fixed;
+	background-color:#E8E8E8;
+	height:80px;
+	width:100%;
+	top:0px;
+	left:0;
+	right:0
+}
+
+.contentWrapper{
+	max-width:1600px;
+}
     
 .knowMe_DIV {
 	align-items: center;
 	text-align: center;
-	height:800px;
+	height:860px;
 	background-repeat: no-repeat;
-	padding:160px 0 0 0;
-	max-width:1920px;
+	padding:180px 0 0 0;
+	margin:80px auto 0 auto;
 	background-size:100% 100%;
 }
 
