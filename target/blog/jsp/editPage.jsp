@@ -7,7 +7,6 @@
         
 <!--     <link href="/blog/css/bootstrap/bootstrap.min.css" rel="stylesheet"> -->
 <!--     <link href="/blog/css/bootstrap/bootstrap-responsive.css" rel="stylesheet"> -->
-
 <!--     <script src="/blog/js/jquery/jquery-1.11.3.js"></script> -->
 <!--     <script src="/blog/js/bootstrap/bootstrap.min.js"></script> -->
    
@@ -23,6 +22,7 @@
 		<div align="center">
 			<input type="button" value="Save" onclick="save()" class="centre"></input>
 		</div>
+		
 		<div align="center">
 			<input type="button" value="Bold" onclick="bold()" class="centre"></input>
 			
